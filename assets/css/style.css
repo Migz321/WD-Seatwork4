@@ -1,60 +1,82 @@
-* {
-    box-sizing: border-box;
+body, html{ 
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow: hidden;
 }
 
-.Landing-page{
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#myVideo{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: cover;
+}
+
+.content {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100dvh;
-    width: 100%;
-    padding: 2rem;
-}
-img{
-    width: 100%;
+    align-items: center;
     height: 100%;
-}
-
-h3 {
-    font-family: sans-serif;
-    margin-bottom: -0.5rem;
-}
-
-h1 {
-    font-family: 'Dolly-Roman';
-    font-size: 6rem;
-    margin: 0.5rem;
-}
-
-p {
-    margin-bottom: 5px;
     text-align: center;
-    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.buttons {
+header h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #ccc;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-    padding: 1rem;
-    gap: 10px;
+    gap: 20px;
 }
 
-.hero-buttons {
-    text-decoration: none;
-    padding: 15px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    justify-content: space-around;
-    transition: background-color 0.3s ease;
-  }
+nav ul li {
+    margin: 0;
+}
 
-.hero-buttons:hover {
-    background-color: black;
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color:  red;
+    color: #000;
 }
