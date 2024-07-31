@@ -56,7 +56,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-- This project contains two designs of feature pages with the use of ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) and ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white). 
+- This project shows the contents of a featured website, where it focuses on features of certain subjects in ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) and ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white). 
 - To present a functional website for future skill reference.
 
 
