@@ -12,7 +12,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  
+  This repository is created to showcase two different styles of feature pages using HTML AND CSS.
 </div>
 
 <br />
@@ -63,8 +63,7 @@ This project contains two designs of feature pages with the use of ![HTML](https
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -108,4 +107,5 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
+|-|-|-|
 
