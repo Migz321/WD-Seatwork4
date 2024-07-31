@@ -65,7 +65,6 @@
 <!-- The following are just sample -->
 - MultiPage Website
 - Hover Buttons
-- Navigation
 - animations
 
 
