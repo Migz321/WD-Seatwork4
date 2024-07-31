@@ -108,4 +108,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
+| HTML Tutorial| HTML Tutorial of the basics | https://www.w3schools.com/html/ |
+| CSS Tutorial| CSS Tutorial of the basics | https://www.w3schools.com/CSS/ |
 
