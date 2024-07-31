@@ -64,6 +64,9 @@
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
+- Hover Buttons
+- Navigation
+- animations
 
 
 ### Technology
